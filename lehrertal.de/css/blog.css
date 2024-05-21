@@ -1,0 +1,48 @@
+.d-block{
+    display: block !important;
+}
+
+.d-none{
+    display: none !important;
+}
+
+.post-container{
+    border: solid 1px black;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+    overflow: hidden;
+    div{
+        white-space: pre-wrap;
+        word-break: auto-phrase;
+    }
+
+}
+
+.blog-content-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+#blog-content{
+    width: 100%;
+
+}
+
+.post-date{
+    text-align: right;
+    font-size: small;
+}
+
+@media only screen and (min-width: 768px) {
+    #blog-content{
+        width: 75%;
+    }
+
+    .post-container{
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+}

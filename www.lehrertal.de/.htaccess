@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^(.*?)/?$ %{REQUEST_SCHEME}://lehrertal.de/$1 [R=302,L]

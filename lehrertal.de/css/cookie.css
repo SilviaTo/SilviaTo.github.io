@@ -1,0 +1,46 @@
+*{
+    --cc-btn-primary-color:    var( --cc-primary-color) ;
+    --cc-btn-primary-bg: var(--cc-bg);
+
+}
+
+.d-block {
+    display: block !important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+#mapiframe1img {
+    height: 450px;
+    width: 100%;
+}
+
+.placeholder-img {
+    position: relative;
+    display: inline-block;
+    img{
+        -webkit-filter: brightness(0.6);
+        filter: brightness(0.6);
+    }
+
+    button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.m-3{
+    margin: 2rem !important;
+}
+
+#blog-placeholder{
+    text-align: center;
+}
+
+.cm__btn{
+    background-color: #e99666;
+}
