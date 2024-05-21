@@ -100,7 +100,7 @@ CookieConsent.run({
                     acceptAllBtn: "Alle Akzeptieren",
                     acceptNecessaryBtn: "Technisch Notwendige Akzeptieren",
                     showPreferencesBtn: "Cookie Einstellungen",
-                    footer: "<a href=\"/datenschutz\">Datenschutzerklärung</a>\n<a href=\"/impressum\">Impressum</a>"
+                    footer: "<a href=\"/impressum-und-datenschutz#datenschutz\">Datenschutzerklärung</a>\n<a href=\"/impressum-und-datenschutz#impressum\">Impressum</a>"
                 },
                 preferencesModal: {
                     title: "Cookie Einstellungen",
