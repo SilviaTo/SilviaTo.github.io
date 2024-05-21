@@ -1,5 +1,5 @@
 RewriteEngine On
 
 RewriteRule ^start$ / [R=302,L]
-RewriteRule ^impressum$ https://lehrertal.de/impressum-und-datenschutz#impressum [R=301,L]
-RewriteRule ^datenschutz$ https://lehrertal.de/impressum-und-datenschutz#datenschutz [R=301,L]
+RewriteRule ^impressum$ https://silviato.github.io/impressum-und-datenschutz#impressum [R=301,L]
+RewriteRule ^datenschutz$ https://silviato.github.io/impressum-und-datenschutz#datenschutz [R=301,L]
