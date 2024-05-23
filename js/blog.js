@@ -36,6 +36,7 @@ const blogPlaceholder = document.getElementById('blog-placeholder');
 
 CookieConsent.run({
     onConsent: function () {
+        handleAction();
         if (CookieConsent.acceptedCategory('analytics')) {
             if(blog){
                 blog.classList.remove('d-none');
